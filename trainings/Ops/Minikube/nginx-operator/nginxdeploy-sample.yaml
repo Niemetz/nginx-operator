@@ -1,0 +1,7 @@
+apiVersion: app.example.com/v1
+kind: NginxDeploy
+metadata:
+  name: sample-nginxdeploy
+  namespace: default
+spec:
+  foo: "This is a test field"
